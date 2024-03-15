@@ -1,7 +1,7 @@
 function calculateScore(){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve("score calculated "+ Math.floor(Math.random() * 10));
+            resolve("Player's score is "+ Math.floor(Math.random() * 10));
         }, 2000);
     });
 }
